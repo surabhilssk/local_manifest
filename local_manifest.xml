@@ -1,10 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+	
+	<remote name="surabhilssk"
+		fetch="https://github.com/surabhilssk"/>
+	<remote name="rk134"
+		fetch="https://github.com/rk134" />
+	<remote name="clang"
+		fetch="https://github.com/kdrag0n" />
+	<remote name="uni"
+		fetch="https://github.com/Ghostmaster69-dev" />
+	<remote name="line"
+		fetch="https://github.com/LineageOS" />
+	<remote name="rk1345"
+		fetch="https://github.com/rxhulkxnt44" />
+	<remote name="Arrow"
+		fetch="https://github.com/ArrowOS" />
+	<remote name="addy"
+		fetch="https://github.com/adnan-44" />
+	<remote name="pe"
+		fetch="https://github.com/PixelExperience" />
+	<remote name="sri"
+		fetch="https://github.com/gamehackerever" />
+	<remote name="azure"
+		fetch="https://gitlab.com/Panchajanya1999" />
+	<remote name="prajju"
+		fetch="https://github.com/PrajjuS" />
+	<remote name="Rn4"
+		fetch="https://github.com/Redmi-note-4x" />
+	
+	<project path="device/xiaomi/vince" name="android_device_xiaomi_vince" remote="surabhilssk" revision="fluid-12" />
+	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="rk134" revision="pixel-12" />
+	<project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="uni" revision="12" clone-depth="1" />
+	
+	<!--compiler-->
+	<project path="prebuilts/clang/host/linux-x86/clang-15" name="azure-clang" remote="azure" revision="main" clone-depth="1" />
+	
+	<!--wlan-->
+	<remove-project name="LineageOS/android_hardware_qcom_wlan"/>
+   	<project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="addy" revision="twelve"/>
+	
+	<!--antradio-library-->
+	<project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" revision="lineage-18.1" remote="line" />
 
- <!-- Trees -->
- <project path="device/10or/G" name="RahulPalXDA/android_device_10or_G.git" remote="github" revision="lineage-18.1" />
- <project path="device/10or/msm8953-common" name="RahulPalXDA/android_device_10or_msm8953-common.git" remote="github" revision="lineage-18.1" />
- <project path="vendor/10or" name="RahulPalXDA/android_vendor_10or.git" remote="github" revision="master" />
- <project path="kernel/10or/G" name="10orDevs/android_kernel_10or_G-4.9.git" remote="github" revision="lineage-18.1" />
- 
 </manifest>
