@@ -43,7 +43,7 @@
 	<!--<remove-project name="hardware_qcom-caf_msm8996_audio" />-->
 	<!--<remove-project name="hardware_qcom-caf_msm8996_display" />-->
 	<!--<project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="AddyGod" revision="twelve" clone-depth="1" />-->
-	<remove-project name="LineageOS/android_hardware_qcom_wlan"/>
+	
    	<project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="addy" revision="twelve"/>
         <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996_audio" remote="PE" revision="twelve-LA.UM.9.6.2.r1-04100-89xx.0" clone-depth="1" />
         <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996_display" remote="PE" revision="twelve-LA.UM.9.6.2.r1-04100-89xx.0" clone-depth="1" />
