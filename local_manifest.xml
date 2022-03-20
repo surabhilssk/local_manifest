@@ -29,6 +29,8 @@
 		fetch="https://github.com/Redmi-note-4x" />
 	<remote name="ryuzenn"
 		fetch="https://github.com/kutemeikito" />
+	<remote name="fluid"
+		fetch="https://github.com/Project-Fluid" />
 
         <!--Tree-->	
 	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="surabhil" revision="elixir-12" clone-depth="1" />
