@@ -41,6 +41,6 @@
 	<project path="prebuilts/clang/host/linux-x86/clang-15" name="azure-clang" remote="azure" revision="main" clone-depth="1" />
 
         <!--fextras-->
-        <project path="vendor/lawnicons" name="vendor_fextras" remote="fluid" revision="fluid-12" clone-depth="1" />
+        <!--<project path="vendor/lawnicons" name="vendor_fextras" remote="fluid" revision="fluid-12" clone-depth="1" />-->
 
 </manifest>
