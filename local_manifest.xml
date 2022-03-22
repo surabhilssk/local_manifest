@@ -31,7 +31,7 @@
 		fetch="https://github.com/kutemeikito" />
 
         <!--Tree-->	
-	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="surabhil" revision="nad" clone-depth="1" />
+	<project path="device/xiaomi/vince" name="nad_device_xiaomi_vince" remote="surabhil" revision="12" clone-depth="1" />
 	<project path="vendor/xiaomi/vince" name="android_vendor_xiaomi_vince" remote="yurika" revision="12" clone-depth="1" />
 	<project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince-4.9" remote="ryuzenn" revision="VinceR" clone-depth="1" />
 	
