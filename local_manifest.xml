@@ -38,8 +38,8 @@
 	<project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="uni" revision="12" clone-depth="1" />
 	
 	<!--compiler-->
-	<project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="Cosmic-Clang" remote="cosmic" clone-depth="1" />
-	<!--<project path="prebuilts/clang/host/linux-x86/clang-15" name="azure-clang" remote="azure" revision="main" clone-depth="1" />-->
+	
+	<project path="prebuilts/clang/host/linux-x86/clang-15" name="azure-clang" remote="azure" revision="main" clone-depth="1" />
 
 
 </manifest>
