@@ -32,8 +32,8 @@
 
         <!--Tree-->	
 	<project path="device/xiaomi/vince" name="device_xiaomi_vince-1" remote="surabhil" revision="12" clone-depth="1" />
-	<project path="vendor/xiaomi/vince" name="android_vendor_xiaomi_vince" remote="yurika" revision="12" clone-depth="1" />
-	<project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince-4.9" remote="ryuzenn" revision="VinceR" clone-depth="1" />
+	<project path="vendor/xiaomi/vince" name="android_vendor_xiaomi_vince" remote="surabhil" revision="12" clone-depth="1" />
+	<project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="surabhil" revision="12" clone-depth="1" />
 	
 	<!--compiler-->
 	<project path="prebuilts/clang/host/linux-x86/clang-15" name="azure-clang" remote="azure" revision="main" clone-depth="1" />
